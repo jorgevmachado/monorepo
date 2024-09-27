@@ -1,4 +1,9 @@
 {
   "name": "monorepo",
-  "packageManager": "yarn@4.2.2"
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
